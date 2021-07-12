@@ -1,0 +1,33 @@
+{
+    "name": "nhan",
+    "version": "1.0.0",
+    "description": "Test build gulp",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "build": "gulp build",
+        "dev": "gulp run:dev"
+    },
+    "devDependencies": {
+        "babel-polyfill": "^6.26.0",
+        "browser-sync": "^2.26.14",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-connect": "^5.7.0",
+        "gulp-htmlhint": "^4.0.0",
+        "gulp-if": "^3.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-uglify": "^3.0.2",
+        "gulp-useref": "^5.0.0"
+    },
+    "dependencies": {
+        "@babel/core": "^7.13.16",
+        "@babel/preset-env": "^7.13.15",
+        "bootstrap": "^4.6.0",
+        "gulp-eslint": "^6.0.0",
+        "gulp-file-include": "^2.3.0",
+        "gulp-image": "^6.2.1",
+        "jquery": "^3.6.0"
+    }
+}
