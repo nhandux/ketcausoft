@@ -164,7 +164,8 @@ header.navbar {
     header.navbar .header-lg .li-more_image:hover ul {
       top: 63px; }
   header.navbar .header-lg .nav-link {
-    padding: 0.5rem 1em; }
+    padding: 0.5rem 1em;
+    font-size: 14px; }
   header.navbar .header-lg .navbar-nav-scroll {
     margin-right: 80px; }
   header.navbar .header-lg .btn {
@@ -232,3 +233,6 @@ header.navbar {
         right: -45px;
         top: 30%;
         bottom: 0; }
+
+.custom-header {
+  padding-left: 140px; }

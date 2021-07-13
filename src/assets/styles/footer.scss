@@ -3,8 +3,18 @@
   color: #fff;
   h6{
     font-size: 20px;
+    position: relative;
+    &::before{
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 2px;
+      background-color: #fff;
+      bottom: -20px;
+    }
   }
   .list-unstyled{
+    padding-top: 20px;
     li{
       font-size: 14px;
       a{
