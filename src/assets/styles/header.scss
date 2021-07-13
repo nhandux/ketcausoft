@@ -215,6 +215,7 @@ header.navbar {
         }
         .nav-link{
             padding: 0.5rem 1em;
+            font-size: 14px;
         }
         .navbar-nav-scroll{
             margin-right: 80px;
@@ -310,4 +311,8 @@ header.navbar {
             }
         }
     }
+}
+
+.custom-header{
+    padding-left: 140px;
 }
