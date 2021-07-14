@@ -1,0 +1,43 @@
+.box-tutorial{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ECECEC;
+  align-items: center;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 15px;
+  &.active{
+    background-color: #18A05F;
+    p{
+      color: #fff;
+    }
+  }
+  p{
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  &__right{
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    h1{
+      font-size: 24px;
+      font-weight: 700;
+      border-bottom: 1px solid #ECECEC;
+      padding-bottom: 10px;
+      text-align: left;
+    }
+    p{
+      margin-bottom: 0;
+      font-size: 18px;
+      text-align: left;
+    }
+    img{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
