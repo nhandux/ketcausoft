@@ -992,3 +992,39 @@ header.navbar {
     .box-question-examination button.button-rework {
       margin-left: 0;
       margin-bottom: 0; }
+
+.box-tutorial {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ECECEC;
+  align-items: center;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 15px; }
+  .box-tutorial.active {
+    background-color: #18A05F; }
+    .box-tutorial.active p {
+      color: #fff; }
+  .box-tutorial p {
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0; }
+  .box-tutorial__right {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px; }
+    .box-tutorial__right h1 {
+      font-size: 24px;
+      font-weight: 700;
+      border-bottom: 1px solid #ECECEC;
+      padding-bottom: 10px;
+      text-align: left; }
+    .box-tutorial__right p {
+      margin-bottom: 0;
+      font-size: 18px;
+      text-align: left; }
+    .box-tutorial__right img {
+      margin-top: 20px;
+      margin-bottom: 20px; }
