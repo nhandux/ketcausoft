@@ -1,0 +1,309 @@
+.software-page{
+  background-color: #1EC988;
+  color: #fff;
+  padding-top: 40px;
+  &.intro-pfd{
+    background-image:linear-gradient(to bottom, rgba(#1EC988, 0.5), rgba(#1EC988, 0.5)),
+    url('../images/Mask Group 9.png');
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  &__box-intro{
+    align-items: center;
+    h1{
+      font-size: 36px;
+      font-weight: 700;
+    }
+    h2{
+      font-size: 15px;
+      font-weight: 400;
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+  }
+  .group-button{
+    display: flex;
+    justify-content: flex-start;
+    button{
+      display: flex;
+      align-items: baseline;
+      padding: 9px 18px;
+      border-radius: 20px;
+      background-color: #18A05F;
+      border: 0;
+      img{
+        width: 8px;
+      }
+      p{
+        margin-bottom: 0;
+        color: #fff;
+        padding-left: 5px;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      &:last-child{
+        margin-left: 10px;
+        border: 1px solid #18A05F;
+        background-color: #fff;
+        p{
+          color: #18A05F;
+        }
+      }
+    }
+  }
+  &__content{
+    text-align: center;
+    padding-top: 50px;
+    h1{
+      font-size: 36px;
+      font-weight: 700;
+    }
+    h2{
+      font-size: 15px;
+      font-weight: 400;
+      padding-bottom: 20px;
+    }
+    &__box{
+      color: #000;
+      background-color: #fff;
+      display: flex;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      border-radius: 10px;
+      border: 1px solid #707070;
+      box-shadow: 3px 3px rgba(#000000, 0.08);
+      max-width: 270px;
+      margin-bottom: 35px;
+      margin-right: 15px;
+      img{
+        width: 60px;
+        height: 60px;
+      }
+      h3{
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 20px;
+        span{
+          font-size: 15px;
+          font-weight: 400;
+        }
+      }
+      .more{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        width: auto;
+        height: auto;
+      }
+      .more-detail{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        width: auto;
+        height: auto;
+      }
+    }
+    .box-free{
+      background-color: #F9F9F9;
+      margin-top: 25px;
+      margin-bottom: 40px;
+
+      &__detail{
+        border-right: 1px solid #ECECEC;
+        padding: 22px;
+        img{
+          height: 27px;
+        }
+        &:nth-of-type(4){
+          border-right: 0;
+        }
+        p{
+          margin-bottom: 0;
+          font-size: 15px;
+          padding-top: 5px;
+        }
+      }
+    }
+  }
+}
+.examination-content{
+  p{
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .group-button{
+    display: flex;
+    justify-content: flex-start;
+    button{
+      display: flex;
+      align-items: baseline;
+      padding: 9px 18px;
+      border-radius: 20px;
+      background-color: #18A05F;
+      border: 0;
+      p{
+        margin-bottom: 0;
+        color: #fff;
+        padding-left: 5px;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      &:last-child{
+        margin-left: 10px;
+        border: 1px solid #267FFD;
+        background-color: #267FFD;
+        p{
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.user-manual{
+  align-items: center;
+  &__left{
+    h3{
+      background-color: #18A05F;
+      padding: 15px;
+      color: #fff;
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 0;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    ul{
+      padding-left: 0;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      box-shadow: 3px 3px 3px 3px rgba(#000000, 0.08);
+      li{
+        list-style: none;
+        padding: 10px;
+        border-bottom: 1px solid #ECECEC;
+        text-align: left;
+        a{
+          font-size: 15px;
+          font-weight: 400;
+          color: #000;
+          &:hover{
+            color: #267FFD;
+            text-decoration: unset;
+          }
+        }
+      }
+    }
+  }
+}
+
+.list-video-thematic{
+  margin-bottom: 40px;
+  h1{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+    padding-top: 20px;
+  }
+  &__video{
+    position: relative;
+    .icon-play{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+.object-fit-image{
+  object-fit: unset !important;
+}
+.box-question-examination{
+  background-color: #fff;
+  margin: 0 25px;
+  border-radius: 10px;
+  margin-bottom: 80px;
+  text-align: left;
+  padding-left: 0;
+  padding-right: 25px;
+  h1{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px;
+    margin-left: 25px;
+    padding-left: 0;
+    border-bottom: 1px solid #ECECEC;
+    margin-bottom: 0;
+  }
+  &__item{
+    margin-left: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
+    padding-top: 20px;
+    &--result{
+      font-size: 18px !important;
+    }
+    &__top{
+      display: flex;
+      align-items: center;
+      padding-bottom: 20px;
+      p{
+        margin-bottom: 0;
+        padding-left: 10px;
+      }
+    }
+    h2{
+      font-size: 15px;
+      font-weight: 700;
+      padding-bottom: 0;
+    }
+    p{
+      font-size: 15px;
+      font-weight: 400;
+    }
+    .form-check{
+      display: flex;
+      align-items: center;
+    }
+    .table{
+      thead{
+        tr{
+          background-color: #EBF8F1;
+        }
+        th{
+          border: 0;
+        }
+      }
+      tbody{
+        tr{
+          td{
+            border: 0;
+          }
+        }
+      }
+    }
+  }
+  button{
+    display: flex;
+    align-items: baseline;
+    padding: 9px 35px;
+    border-radius: 20px;
+    background-color: #18A05F;
+    border: 0;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    p{
+      margin-bottom: 0;
+      color: #fff;
+      padding-left: 5px;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    &.button-rework{
+      margin-left: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
