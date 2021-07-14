@@ -148,6 +148,12 @@
         height: 2px;
         background-color: #18A05F;
         bottom: -10px; }
+    .section-feature__item__list h2 {
+      font-size: 15px;
+      font-weight: 700 !important;
+      text-align: left; }
+      .section-feature__item__list h2 span {
+        color: #267FFD; }
     .section-feature__item__list--image img {
       width: 570px;
       object-fit: none; }
@@ -187,6 +193,15 @@
           background-color: #fff; }
           .section-feature__item__list .group-button button:last-child p {
             color: #18A05F; }
+    .section-feature__item__list__box {
+      padding: 30px 25px;
+      border-radius: 10px;
+      background-color: #fff;
+      margin-bottom: 15px;
+      text-align: left; }
+      .section-feature__item__list__box.active {
+        background-color: #18A05F;
+        color: #fff; }
 
 .section-export {
   background-color: #F9F9F9;
@@ -348,7 +363,8 @@
   background-color: #18A05F;
   color: #fff;
   padding-top: 50px;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 30px; }
   .section-question h1 {
     font-size: 36px;
     font-weight: 700; }
@@ -391,3 +407,6 @@
 
 .bg-gray {
   background-color: #F9F9F9; }
+
+.bg-information {
+  background-color: #F1F1F1; }

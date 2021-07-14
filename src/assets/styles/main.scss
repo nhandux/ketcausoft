@@ -186,6 +186,14 @@
           bottom: -10px;
         }
       }
+      h2{
+        font-size: 15px;
+        font-weight: 700 !important;
+        text-align: left;
+        span{
+          color: #267FFD;
+        }
+      }
       &--image{
         img{
           width: 570px;
@@ -235,6 +243,17 @@
               color: #18A05F;
             }
           }
+        }
+      }
+      &__box{
+        padding: 30px 25px;
+        border-radius: 10px;
+        background-color: #fff;
+        margin-bottom: 15px;
+        text-align: left;
+        &.active{
+          background-color: #18A05F;
+          color: #fff;
         }
       }
     }
@@ -440,6 +459,7 @@
   color: #fff;
   padding-top: 50px;
   text-align: center;
+  padding-bottom: 30px;
   h1{
     font-size: 36px;
     font-weight: 700;
@@ -498,3 +518,9 @@
 .bg-gray{
   background-color: #F9F9F9;
 }
+
+.bg-information{
+  background-color: #F1F1F1;
+}
+
+
