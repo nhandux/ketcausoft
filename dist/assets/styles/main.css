@@ -410,3 +410,54 @@
 
 .bg-information {
   background-color: #F1F1F1; }
+
+.section-customer-reviews {
+  position: relative; }
+  .section-customer-reviews h1 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 50px; }
+  .section-customer-reviews h2 {
+    font-size: 100px;
+    font-weight: 700;
+    transform: rotate(90deg);
+    display: inline-block;
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    color: #18A05F; }
+
+#carouselBottom {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center; }
+  #carouselBottom .carousel-control-prev {
+    left: -70px; }
+  #carouselBottom .carousel-control-next {
+    right: -70px; }
+  #carouselBottom .carousel-indicators {
+    bottom: 5px; }
+    #carouselBottom .carousel-indicators li {
+      border: 1px solid #C4C4C4; }
+      #carouselBottom .carousel-indicators li.active {
+        background-color: #18A05F;
+        border: 0; }
+
+.box-slide-bottom {
+  background-color: #fff;
+  width: 1000px;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 0 auto;
+  height: 350px; }
+  .box-slide-bottom .carousel-item p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 0; }
+  .box-slide-bottom .carousel-item h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0; }
+  .box-slide-bottom .carousel-item img {
+    margin-top: 20px; }
