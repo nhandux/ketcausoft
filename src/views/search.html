@@ -1,0 +1,124 @@
+<html lang="vi">
+  <head>
+    @@include('../components/_head.html', { "title": "Meta title for web" })
+  </head>
+  <body>
+    @@include('../components/_header.html')
+    <div class="search-page">
+      <div class="search-page__top">
+        <img src="../assets/images/Image 66.png" />
+        <h1>TRA CỨU DỮ LIỆU ĐỊA CHẤT</h1>
+      </div>
+      <div class="container">
+        <div class="search-page__top__form">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">NHẬP TỪ KHÓA ĐỂ TÌM KIẾM</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Nhập từ khóa"
+              />
+            </div>
+            <p>Phân loại</p>
+            <div class="form-row">
+              <div class="col">
+                <select id="inputState" class="form-control">
+                  <option selected>- Tỉnh/Thành phố -</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col">
+                <select id="inputState" class="form-control">
+                  <option selected>- Quận/Huyện -</option>
+                  <option>...</option>
+                </select>
+              </div>
+            </div>
+            <div class="group-button">
+              <button type="submit" class="btn btn-primary">
+                <img src="../assets/images/Icon map-search.png" />
+                <p>Tìm kiếm</p>
+              </button>
+              <button type="submit" class="btn btn-success">
+                <img src="../assets/images/Path 8364.png" />
+                <p>Upload</p>
+              </button>
+              <h3>Xem hướng dẫn Upload</h3>
+            </div>
+          </form>
+        </div>
+        <div class="search-page__center">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">STT</th>
+                <th scope="col">Tỉnh/Thành phố - Quận/Huyện</th>
+                <th scope="col">Địa chỉ</th>
+                <th scope="col">Upload</th>
+                <th scope="col">(*.KSD)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">1</td>
+                <td>Hà Tĩnh - Thành Phố Hà Tĩnh</td>
+                <td>Phường Trần Phú, Thành phố Hà Tĩnh, Tỉnh Hà Tĩnh</td>
+                <td class="text-center">
+                  <img src="../assets/images/Ellipse 355.png" />
+                </td>
+                <td class="text-center">
+                  <img src="../assets/images/Icon feather-download.png" />
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">2</td>
+                <td>Hà Tĩnh - Thành Phố Hà Tĩnh</td>
+                <td>Phường Trần Phú, Thành phố Hà Tĩnh, Tỉnh Hà Tĩnh</td>
+                <td class="text-center">
+                  <img src="../assets/images/Ellipse 355.png" />
+                </td>
+                <td class="text-center">
+                  <img src="../assets/images/Icon feather-download.png" />
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">3</td>
+                <td>Hà Tĩnh - Thành Phố Hà Tĩnh</td>
+                <td>Phường Trần Phú, Thành phố Hà Tĩnh, Tỉnh Hà Tĩnh</td>
+                <td class="text-center">
+                  <img src="../assets/images/Ellipse 355.png" />
+                </td>
+                <td class="text-center">
+                  <img src="../assets/images/Icon feather-download.png" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation example" class="navigation">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item active">
+                <a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    @@include('../components/_footer.html')
+  </body>
+</html>
