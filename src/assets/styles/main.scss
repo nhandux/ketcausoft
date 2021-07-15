@@ -523,4 +523,68 @@
   background-color: #F1F1F1;
 }
 
+.section-customer-reviews{
+  position: relative;
+  h1{
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 50px;
+  }
+  h2{
+    font-size: 100px;
+    font-weight: 700;
+    transform: rotate(90deg);
+    display: inline-block;
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    color: #18A05F;
+  }
+}
+#carouselBottom{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  .carousel-control-prev{
+    left: -70px;
+  }
+  .carousel-control-next{
+    right: -70px;
+  }
+  .carousel-indicators{
+    bottom: 5px;
+    li{
+      border: 1px solid #C4C4C4;
+      &.active{
+        background-color: #18A05F;
+        border: 0;
+      }
+    }
+  }
+}
+.box-slide-bottom{
+  background-color: #fff;
+  width: 1000px;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 0 auto;
+  height: 350px;
+  .carousel-item{
+    p{
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 30px;
+      margin-bottom: 0;
+    }
+    h4{
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+    img{
+      margin-top: 20px;
+    }
+  }
+}
+
 
