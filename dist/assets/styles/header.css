@@ -103,6 +103,7 @@ header.navbar {
     left: 0;
     right: 0;
     top: 89px;
+    display: none;
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     opacity: 0;
@@ -180,6 +181,7 @@ header.navbar {
   header.navbar .header-lg li:hover ul {
     z-index: 19;
     opacity: 1;
+    display: block;
     top: 86px; }
   header.navbar .header-lg .li-more_image {
     position: relative; }
