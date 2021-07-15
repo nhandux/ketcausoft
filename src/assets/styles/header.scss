@@ -138,6 +138,7 @@ header.navbar {
                 left: 0;
                 right: 0;
                 top: 89px;
+                display: none;
                 transition: all 0.3s ease-in;
                 -webkit-transition: all 0.3s ease-in;
                 opacity: 0;
@@ -235,6 +236,7 @@ header.navbar {
             &:hover ul{
                 z-index: 19;
                 opacity: 1;
+                display: block;
                 top: 86px;
             }
         }
