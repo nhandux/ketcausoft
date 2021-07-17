@@ -182,6 +182,129 @@ body{
             color: #18A05F;
         }
     }
+    .main-evalute{
+        padding-top: 2em;
+        .total_evalute{
+            text-align: center;
+            .title-total{
+                margin-top: 15px;
+                font-weight: 800;
+                font-size: 3vw;
+                font-family: 'Montserrat', sans-serif;
+            }
+            p{
+                margin-bottom: 5px;
+            }
+        }
+        .chart{
+            border-left: 1px solid #ECECEC;
+            ul{
+                padding-left: 20px;
+                margin: 0px;
+                li {
+                    list-style: none;
+                    display: flex;
+                    padding: 3px 0px;
+                    align-items: center;
+                    .col_left{
+                        width: calc(100% - 150px);
+                        height: 7px;
+                        border-radius: 30px;
+                        margin-right: 20px;
+                        background:#E5E5E5;
+                        position: relative;
+                        .over-chart{
+                            position: absolute;
+                            background: #323232;
+                            left: 0;
+                            top: 0;
+                            border-radius: 30px;
+                            bottom: 0;
+                            z-index: 8;
+                        }
+                    }
+                    .col_right{
+                        width: 150px;
+                        float: right;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+        .edu_comment{
+            .item{
+                display: flex;
+                .avatar{
+                    padding-right: 1.5em;
+                }
+                .content{
+                    h3{
+                        font-size: 1.1vw;
+                        font-weight: 600;
+                        margin-bottom: 4px;
+                    }
+                    .evalute{
+                        color: #C4C4C4;
+                        font-size: 15px;
+                        display: flex;
+                        align-items: center;
+                        span{
+                            margin-top: -6px;
+                            display: inline-block;
+                            margin-right: 20px;
+                        }
+                    }
+                    .content_comment{
+                        padding: 10px 0px;
+                    }
+                    a{
+                        transition: all 0.4s ease-in-out;
+                        -webkit-transition: all 0.4s ease-in-out;
+                        color: #18A05F;
+                        &:hover{
+                            color: #13854F;
+                        }
+                    }
+                    .sub_comment{
+                        .sub_item{
+                            background: #F5F5F5;
+                            padding: 15px 10px;
+                            margin-top: 10px;
+                            display: flex;
+                            .sub_avatar{
+                                padding-right: 10px;
+                            }
+                            h5{
+                                font-size: 1.2em;
+                                font-weight: 600;
+                                margin-bottom: 4px;
+                                &.quantrivien{
+                                    color: #18A05F;
+                                }
+                                .rule{
+                                    font-size: 0.7vw; 
+                                    padding: 4px 10px;
+                                    background: #18A05F;
+                                    color: #fff;
+                                    font-weight: normal;
+                                    border-radius: 10px;
+                                }
+                                .time{
+                                    font-weight: normal;
+                                    font-size: 15px;
+                                    color: #C4C4C4;
+                                }
+                            }
+                            .sub_text{
+                                padding: 10px 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
     font-family: 'Lato', sans-serif;
     &.education_main{
         padding-top: 8vw;
