@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('../components/_head.html', { "title": "Meta title for web" })
+</head>
+<body>
+    @@include('../components/_header.html')
+    <div class="book-page">
+        <div class="container">
+            <div class="book-page__head row">
+                    <p>Trang chủ</p>
+                    <p>5</p>
+                    <p>Sách xây dựng</p>
+                    <p>5</p>
+                    <p>Nhà thép</p>    
+            </div>
+
+            <div class="row">
+                <div class="col-lg-9 col-md-12">
+                    <div class="book-page__detail">
+                        <div class="row book-page__detail__header">
+                            <div class="col-lg-6 col-md-12 book-page__detail__image">
+                                <div class="book-page__sub-image">
+                                    <img src="assets/images/icon_up_2x.png" alt="" class="retangle-up">
+                                    <img src="assets/images/book_sub_2x.png" alt="" class="book-page__sub-image__item">
+                                    <img src="assets/images/book_sub_2x.png" alt="" class="book-page__sub-image__item">
+                                    <img src="assets/images/book_sub_2x.png" alt="" class="book-page__sub-image__item">
+                                    <img src="assets/images/icon_down_2x.png" alt="" class="retangle-down">
+                                </div>
+                                <div class="book-page__main-image">
+                                    <img src="assets/images/book_main_2x.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 book-page__detail__buy">
+                                <p class="book-page__name">KẾT CẤU BÊ TÔNG CỐT THÉP ỨNG SUẤT TRƯỚC THEO TIÊU CHUẨN ACI 318 – 14 CỦA HOA KỲ</p>
+                                <p class="book-page__detail-price">93.000<small>đ</small></p>
+                                <div class="book-page__authen">
+                                    <p class="book-page__author">Tác giả: <b>TS Nguyễn Việt Hưng</b></p>
+                                    <p class="book-page__year">Năm xuất bản: <b>2019</b></p>
+                                    <p class="book-page__year">Nhà xuất bản: <b>NXB Xây dựng</b></p>
+                                </div>
+                                <div class="book-page__quantity">
+                                    <p>Số lượng</p>
+                                    <div class="book-page__quantity-container">
+                                        <button class="btn button-sub" type="button">-</button>
+                                        <input class="form-control book-page__quantity-input" type="number" value="1" min="0" max="1000" step="10"/>
+                                        <button class="btn button-add" type="button">+</button>
+                                    </div>
+                                </div>
+                                <div class="book-page__group-button">
+                                    <button class="btn btn-warning book-page__buy-now" type="button">Mua ngay</button>
+                                    <button class="btn btn-success book-page__add-cart" type="button"><img src="assets/images/cart.svg">Thêm vào giỏ hàng</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="book-page__body">
+                        
+                              <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" role="tab" 
+                                    aria-controls="desc" aria-selected="true">MÔ TẢ</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" role="tab"  aria-controls="evaluate" aria-selected="true">ĐÁNH GIÁ</a>
+                                  </li>
+                              </ul>
+                              <div class="tab-content" >
+                                <div class="tab-pane fade show active" id="desc" role="tabpanel" aria-labelledby="desc-tab">
+                                    <div class="book-page__description">
+                                        <p>Cuốn sách này sẽ giới thiệu cho bạn đọc những kiến thức cơ bản và cần thiết nhất trong việc thiết kế kết cấu bê tông cốt thép ứng suất trước theo tiêu chuẩn ACI 318 – 14 của Hoa Kỳ. Tiêu chuẩn này khá tương đồng với tiêu chuẩn thiết kế cầu AASHTO LRFD của Hoa Kỳ mà dựa trên đó Việt Nam đã biên soạn lại và ban hành tiêu chuẩn thiết kế cầu 22 TCN 272 – 05 áp dụng hiện hành ở nước ta.</p>
+                                        <p>Cuốn sách được biên soạn trên tinh thần giữ nguyên dạng các công thức so với bản gốc của tiêu chuẩn ACI 318 – 14 nhằm giúp cho bạn đọc có thể dễ dàng tra cứu và so sánh. Tuy nhiên, trong một vài công thức không cùng thứ nguyên, tác giả đã đưa thêm vào hệ số chuyển đổi đơn vị nhằm giúp cho bạn đọc có thể áp dụng tính toán theo các đơn vị quen thuộc thường dùng ở Việt Nam. Ngoài ra, xét tới thực tế bê tông nhẹ hầu như không được sử dụng trong kết cấu ứng suất trước, tác giả đã loại bỏ một vài hệ số liên quan đến loại bê tông này trong một số công thức tính toán tính chất cơ lý của bê tông.</p>
+                                        
+                                    </div>
+
+                                    <div class="book-page__table-content">
+                                        <h1 class="book-page__table-content__title">MỤC LỤC:</h1>
+
+                                        <ul class="book-page__table-content__list">
+                                            <li class="book-page__table-content__item">
+                                                <p>Chương 1. Đại cương về bê tông cốt thép ứng suất trước
+                                                </p> </li> <li class="book-page__table-content__item">
+
+                                                    <p>Chương 2. Vật liệu và thiết bị</p>
+                                                </li>
+                                                 <li class="book-page__table-content__item">
+
+                                                    <p>Chương 3. Nguyên lý thiết kế kết cấu bê tông cốt thép ứng suất trước </p>
+                                                </li>
+                                                <li class="book-page__table-content__item">
+
+                                                    <p>Chương 4. Tổn hao ứng suất trong cốt thép ứng suất trước</p>
+                                                </li>
+                                                 <li class="book-page__table-content__item">
+
+                                                    <p>Chương 5. Tính toán kết cấu bê tông cốt thép ứng suất trước</p>
+                                                </li>
+                                                 <li class="book-page__table-content__item">
+
+                                                    <p>Chương 6. Sàn bê tông cốt thép ứng suất trước</p>
+                                                </li>
+                                                 <li class="book-page__table-content__item">
+
+                                                    <p>Phụ lục</p>
+                                                </li>
+                                                 <li class="book-page__table-content__item">
+                                                    <p>Tài liệu tham khảo</p>
+                                                </li>
+                                          
+                                           
+                                        </ul>
+                                    </div>
+                                     </div>
+                                <div class="tab-pane fade" id="evaluate" role="tabpanel" aria-labelledby="evaluate-tab">...</div>
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="book-page__right">
+                        <div class="book-page__card">
+                            <div class="book-page__card__header">
+                                danh mục sách xây dựng
+                            </div>
+                            <div class="book-page__card__body">
+                                <ul class="book-page__card__list">
+                                    <li class="book-page__card__item-p">
+                                        <p>Bê tông cốt thép</p>
+                                    </li>
+                                    <li class="book-page__card__item-p">
+                                        <p>Danh mục khóa học</p>
+                                    </li>
+                                    <li class="book-page__card__item-p">
+                                        <p>Excel</p>
+                                    </li>
+                                    <li class="book-page__card__item-p">
+                                        <p>Khóa học</p>
+                                    </li>
+                                    <li class="book-page__card__item-p">
+                                        <p>Kiến trúc</p>
+                                    </li>
+                                    <li class="book-page__card__item-p">
+                                        <p>Nền móng</p>
+                                    </li>
+                                    <li class="book-page__card__item-p">
+                                        <p>Sách Xây Dựng</p>
+                                    </li>
+                                    <li class="book-page__card__item-p">
+                                        <p>Tài liệu tham khảo</p>
+                                    </li>
+                                    <li class="book-page__card__item-p">
+                                        <p>Ứng suất trước</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+
+                        <div class="book-page__card">
+                            <div class="book-page__card__header">
+                                sách mới
+                            </div>
+                            <div class="book-page__card__body">
+                                <ul class="book-page__card__list">
+                                    <li class="book-page__card__item">
+                                        <div class="book-page__card__item__container">
+                                            <div class="book-page__card__item__left">
+                                                <img src="assets/images/book2_1x.png" alt="">
+                                            </div>
+                                            <div class="book-page__card__item__right">
+                                                <p class="card-item-label">Thiết Kế Kết Cấu Thép Trong Công 
+                                                    Trình XDDD Và CN</p>
+                                                <p class="card-item-price">119.000<small>đ</small></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="book-page__card__item">
+                                        <div class="book-page__card__item__container">
+                                            <div class="book-page__card__item__left">
+                                                <img src="assets/images/book1_1x.png" alt="">
+                                            </div>
+                                            <div class="book-page__card__item__right">
+                                                <p class="card-item-label">Thiết Kế Kết Cấu Thép Trong Công 
+                                                    Trình XDDD Và CN</p>
+                                                    <p class="card-item-price">119.000<small>đ</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="book-page__card__item">
+                                        <div class="book-page__card__item__container">
+                                            <div class="book-page__card__item__left">
+                                                <img src="assets/images/book5_1x.png" alt="">
+                                            </div>
+                                            <div class="book-page__card__item__right">
+                                                <p class="card-item-label">Thiết Kế Kết Cấu Thép Trong Công 
+                                                    Trình XDDD Và CN</p>
+                                                    <p class="card-item-price">119.000<small>đ</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="book-page__card__item">
+                                        <div class="book-page__card__item__container">
+                                            <div class="book-page__card__item__left">
+                                                <img src="assets/images/book4_1x.png" alt="">
+                                            </div>
+                                            <div class="book-page__card__item__right">
+                                                <p class="card-item-label">Thiết Kế Kết Cấu Thép Trong Công 
+                                                    Trình XDDD Và CN</p>
+                                                    <p class="card-item-price">119.000<small>đ</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="book-page__card__item">
+                                        <div class="book-page__card__item__container">
+                                            <div class="book-page__card__item__left">
+                                                <img src="assets/images/book2_1x.png" alt="">
+                                            </div>
+                                            <div class="book-page__card__item__right">
+                                                <p class="card-item-label">Thiết Kế Kết Cấu Thép Trong Công 
+                                                    Trình XDDD Và CN</p>
+                                                    <p class="card-item-price">119.000<small>đ</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="book-page__card">
+                            <div class="book-page__card__header">
+                                sách bán chạy
+                            </div>
+                            <div class="book-page__card__body">
+                                <ul class="book-page__card__list">
+                                    <li class="book-page__card__item">
+                                        <div class="book-page__card__item__container">
+                                            <div class="book-page__card__item__left">
+                                                <img src="assets/images/book2_1x.png" alt="">
+                                            </div>
+                                            <div class="book-page__card__item__right">
+                                                <p class="card-item-label">Thiết Kế Kết Cấu Thép Trong Công 
+                                                    Trình XDDD Và CN</p>
+                                                    <p class="card-item-price">119.000<small>đ</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="book-page__card__item">
+                                        <div class="book-page__card__item__container">
+                                            <div class="book-page__card__item__left">
+                                                <img src="assets/images/book1_1x.png" alt="">
+                                            </div>
+                                            <div class="book-page__card__item__right">
+                                                <p class="card-item-label">Thiết Kế Kết Cấu Thép Trong Công 
+                                                    Trình XDDD Và CN</p>
+                                                    <p class="card-item-price">119.000<small>đ</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="book-page__card__item">
+                                        <div class="book-page__card__item__container">
+                                            <div class="book-page__card__item__left">
+                                                <img src="assets/images/book5_1x.png" alt="">
+                                            </div>
+                                            <div class="book-page__card__item__right">
+                                                <p class="card-item-label">Thiết Kế Kết Cấu Thép Trong Công 
+                                                    Trình XDDD Và CN</p>
+                                                    <p class="card-item-price">119.000<small>đ</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="book-page__card__item">
+                                        <div class="book-page__card__item__container">
+                                            <div class="book-page__card__item__left">
+                                                <img src="assets/images/book4_1x.png" alt="">
+                                            </div>
+                                            <div class="book-page__card__item__right">
+                                                <p class="card-item-label">Thiết Kế Kết Cấu Thép Trong Công 
+                                                    Trình XDDD Và CN</p>
+                                                    <p class="card-item-price">119.000<small>đ</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="book-page__card__item">
+                                        <div class="book-page__card__item__container">
+                                            <div class="book-page__card__item__left">
+                                                <img src="assets/images/book2_1x.png" alt="">
+                                            </div>
+                                            <div class="book-page__card__item__right">
+                                                <p class="card-item-label">Thiết Kế Kết Cấu Thép Trong Công 
+                                                    Trình XDDD Và CN</p>
+                                                    <p class="card-item-price">119.000<small>đ</small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row book-page__ref">
+                
+                    <p class="col-12 book-page__ref-title">SẢN PHẨM TƯƠNG TỰ</p>
+                    <div class="col-lg-3 col-md-6 col-sm-12 book-page__item">
+                        <img src="assets/images/book1_2x.png" alt="" class="book-page__item-image" />
+                        <p class="book-page__item-label">Thiết Kế Kết Cấu Thép Trong Công Trình XDDD Và CN</p>
+                        <p class="book-page__item-price">119.000<small>đ</small></p>                                
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 book-page__item">
+                        <img src="assets/images/book2_2x.png" alt="" class="book-page__item-image" />
+                        <p class="book-page__item-label">Thiết Kế Kết Cấu Thép Trong Công Trình XDDD Và CN</p>
+                        <p class="book-page__item-price">119.000<small>đ</small></p>                                
+                    </div>
+                
+            </div>
+        </div>
+
+        <div class="social">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 social__content">
+                        <h2 class="social__title">kết nối nhiều hơn với ketcausoft</h2>
+                        <p class="social__text">Tham gia nhóm Facebook sau để trao đổi trong quá trình học.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-12 social__logo">
+                        <div class="social__container">
+                            <img src="assets/images/facebook_2x.png" alt="" class="social__logo-facebook">
+                            <img src="assets/images/youtube_2x.png" alt="" class="social__logo-youtube">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @@include('../components/_foot.html') @@include('../components/_footer.html')
+</body>
+</html>
