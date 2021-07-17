@@ -1,0 +1,85 @@
+<html lang="vi">
+    <head>
+        @@include('../components/_head.html', { "title": "Meta title for web" })
+    </head>
+    <body>
+        @@include('../components/_header.html') @@include('../components/_banner_daotao.html')
+        <div class="main-page">
+            <div id="education_soft" class="education_detail">
+                <div class="container">
+                    <div class="udemy">
+                       <div class="row">
+                            <div class="col-md-9">
+                                <div class="col-content-shadow">
+                                    <h1 class="h1-font">
+                                        HƯỚNG DẨN ĐĂNG KÝ
+                                    </h1>
+                                    <hr />
+                                    <div class="content-video pb-0">
+                                        <p>
+                                            Dưới đây là video hướng dẫn đăng ký tham gia khóa học.<br />
+                                            Hướng dẫn đăng ký tài khoản.
+                                        </p>
+                                        <div class="video">
+                                            <script src='https://cdn.jwplayer.com/libraries/pVdloYFt.js'></script>
+                                            <div id="player">Loading the player...</div>
+                                            <script>
+                                                const player = jwplayer('player').setup({
+                                                    file: 'https://content.jwplatform.com/videos/XGqpQYmS-2XbS7bs1.mp4'
+                                                });
+
+                                                player.on('pause', (event) => {});
+
+                                                const bumpIt = () => {
+                                                    const vol = player.getVolume();
+                                                    player.setVolume(vol + 10);
+                                                }
+                                                bumpIt();
+                                            </script>
+                                        </div>
+                                        <div class="chinh_sach">
+                                            <h3>Chính sách ưu đãi</h3>
+                                            <p>
+                                               <strong> THÔNG TIN LIÊN HỆ: </strong><br/>
+                                                ☎️ Hotline/ Zalo: (024) 6260 2415 / 0397 306 689 (Mss Nguyệt) / 0348 526 022 (Mss Trang)
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="content_qc">
+                                    <h3>Thông tin khoá học</h3>
+                                    <div class="content-info">
+                                        <ul>
+                                            <li>
+                                                <a href=""><img src="../assets/images/icon/icon_user_blue.svg"> 2954 học viên</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><img src="../assets/images/icon/icon_baigiang.svg"> 20 bài giảng</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><img src="../assets/images/icon/ic_time_blue.svg"> 8 giờ học</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><img src="../assets/images/icon/ic_download_blue.svg"> 2 tài liệu</a>
+                                            </li>
+                                            <li>
+                                                <a href=""><img src="../assets/images/icon/icon_update.svg"> cập nhật 01/01/2021</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                       </div> 
+                    </div>
+                    
+                </div>
+            </div>
+            @@include('../components/_footer_education.html')
+        </div>
+        @@include('../components/_foot.html') @@include('../components/_footer.html')
+    </body>
+</html>
