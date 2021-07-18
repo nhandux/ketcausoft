@@ -2714,3 +2714,547 @@ body {
     .social__container img {
       width: 270x;
       height: 240px; }
+
+.buy-soft h1 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  line-height: 44px; }
+
+.buy-soft .button-hotline {
+  background-color: #fd8100 !important; }
+  .buy-soft .button-hotline img {
+    width: 16px !important;
+    height: 16px; }
+
+.buy-soft .button-zalo {
+  background-color: #2aa3ff !important;
+  border: none !important; }
+  .buy-soft .button-zalo p {
+    color: #fff !important; }
+
+.buy-soft .section__title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 35px;
+  margin-bottom: 30px;
+  position: relative;
+  text-transform: uppercase; }
+  .buy-soft .section__title::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #18a05f;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.buy-soft .section-card {
+  background-color: #f9f9f9;
+  padding: 50px 0; }
+  .buy-soft .section-card__list {
+    margin-bottom: 45px; }
+  .buy-soft .section-card__item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 20px; }
+    .buy-soft .section-card__item::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+      content: "";
+      border-radius: 10px;
+      opacity: 0;
+      z-index: -1; }
+    .buy-soft .section-card__item:hover, .buy-soft .section-card__item:focus {
+      transform: scale3d(1.006, 1.006, 1); }
+      .buy-soft .section-card__item:hover::after, .buy-soft .section-card__item:focus::after {
+        opacity: 1; }
+    .buy-soft .section-card__item p {
+      text-align: center;
+      font-family: "Lato";
+      font-size: 16px;
+      line-height: 36px;
+      margin: 0; }
+  .buy-soft .section-card__header {
+    background-color: #2aa3ff;
+    border-radius: 10px;
+    clip-path: ellipse(65% 60% at 50% 20%);
+    padding: 10px; }
+    .buy-soft .section-card__header--online {
+      background-color: #2aa3ff; }
+    .buy-soft .section-card__header--log {
+      background-color: #1ab394; }
+    .buy-soft .section-card__header--code {
+      background-color: #f8b600; }
+    .buy-soft .section-card__header--infinity {
+      background-color: #fd8100; }
+    .buy-soft .section-card__header-title {
+      text-align: center;
+      font-family: "Lato";
+      font-size: 13px;
+      line-height: 16px;
+      color: #fff;
+      text-transform: uppercase; }
+  .buy-soft .section-card__image {
+    width: 21px;
+    height: 21px;
+    margin: 0 auto 5px;
+    display: block; }
+  .buy-soft .section-card__price {
+    text-align: center;
+    font-family: "Lato";
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: bold;
+    margin-bottom: 20px; }
+    .buy-soft .section-card__price small {
+      font-family: "Lato";
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 400;
+      margin-left: 5px; }
+    .buy-soft .section-card__price--online {
+      color: #2aa3ff; }
+    .buy-soft .section-card__price--log {
+      color: #1ab394; }
+    .buy-soft .section-card__price--code {
+      color: #f8b600; }
+    .buy-soft .section-card__price--infinity {
+      color: #fd8100; }
+  .buy-soft .section-card__button {
+    display: block;
+    margin: 20px auto;
+    font-family: "Lato";
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    border-radius: 26px;
+    padding: 10px 20px;
+    border: none; }
+    .buy-soft .section-card__button--online {
+      background-color: #2aa3ff; }
+    .buy-soft .section-card__button--log {
+      background-color: #1ab394; }
+    .buy-soft .section-card__button--code {
+      background-color: #f8b600; }
+    .buy-soft .section-card__button--infinity {
+      background-color: #fd8100; }
+  .buy-soft .section-card__hotline {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .buy-soft .section-card__hotline p {
+      font-family: "Lato";
+      font-size: 20px;
+      line-height: 36px;
+      font-weight: bold;
+      margin: 0 5px 0 0; }
+    .buy-soft .section-card__hotline button {
+      background-color: #18a05f;
+      font-family: "Lato";
+      font-size: 20px;
+      line-height: 36px;
+      font-weight: 400;
+      border-radius: 26px;
+      padding: 5px 25px; }
+
+.buy-soft .section-payment {
+  padding: 30px 60px; }
+  .buy-soft .section-payment__tutorial {
+    padding: 30px 0; }
+    .buy-soft .section-payment__tutorial__item {
+      min-height: 250px; }
+    .buy-soft .section-payment__tutorial__label {
+      position: relative;
+      margin-bottom: 20px; }
+    .buy-soft .section-payment__tutorial__number {
+      border: 2px solid #18a05f;
+      border-radius: 50%;
+      color: #18a05f;
+      width: 74px;
+      height: 74px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Lato";
+      font-size: 24px;
+      line-height: 24px;
+      font-weight: bold;
+      position: absolute;
+      background-color: #fff;
+      top: 50%;
+      left: 0;
+      transform: translate(0, -50%); }
+    .buy-soft .section-payment__tutorial__title {
+      background-color: #ececec;
+      margin: 0;
+      padding-left: 75px;
+      margin-left: 20px;
+      font-family: "Lato";
+      font-size: 15px;
+      line-height: 24px; }
+    .buy-soft .section-payment__tutorial__text {
+      margin-left: 94px;
+      font-family: "Lato";
+      font-size: 15px;
+      line-height: 24px; }
+  .buy-soft .section-payment__register {
+    padding-left: 0; }
+    .buy-soft .section-payment__register form {
+      padding: 40px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 10px; }
+      .buy-soft .section-payment__register form .form-label {
+        font-family: "Lato";
+        font-size: 20px;
+        line-height: 24px;
+        margin: 30px 0 10px; }
+      .buy-soft .section-payment__register form .form-control {
+        padding: 15px 20px;
+        margin-bottom: 20px; }
+      .buy-soft .section-payment__register form .form-check a {
+        display: block; }
+      .buy-soft .section-payment__register form .btn-payment {
+        background-color: #18a05f;
+        padding: 20px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-family: "Lato";
+        font-size: 15px;
+        line-height: 18px;
+        transition: all 0.3s ease-in-out; }
+        .buy-soft .section-payment__register form .btn-payment:hover {
+          background-color: #2aa3ff; }
+
+.buy-soft .section-thanhtoan {
+  background-color: #f9f9f9;
+  padding: 60px 0; }
+  .buy-soft .section-thanhtoan__container .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; }
+    .buy-soft .section-thanhtoan__container .item img {
+      width: 110px;
+      height: 110px;
+      margin-right: 10px; }
+    .buy-soft .section-thanhtoan__container .item a {
+      display: block; }
+
+#modalPayment {
+  min-width: 500px; }
+  #modalPayment .times {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 9;
+    cursor: pointer; }
+  #modalPayment .modal-dialog {
+    max-width: none; }
+  #modalPayment .modal-body {
+    padding: 15px 80px;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400; }
+    #modalPayment .modal-body img {
+      margin-bottom: 25px;
+      width: 120px;
+      height: 120px; }
+    #modalPayment .modal-body .title {
+      font-family: "Lato";
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #18a05f; }
+    #modalPayment .modal-body p {
+      margin: 0; }
+
+.user-banner {
+  margin-bottom: 5px; }
+
+.user-ketcausoft {
+  background-color: #f5f5f5;
+  padding: 50px; }
+  .user-ketcausoft .section-info {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3); }
+    .user-ketcausoft .section-info__header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px; }
+      .user-ketcausoft .section-info__header .avatar-container {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 30px; }
+        .user-ketcausoft .section-info__header .avatar-container::before {
+          content: "";
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          background-color: #ffffff;
+          top: 0;
+          right: 0;
+          border-radius: 10px;
+          opacity: 0.8;
+          cursor: pointer; }
+      .user-ketcausoft .section-info__header .avatar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px; }
+      .user-ketcausoft .section-info__header .edit-avatar {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer; }
+      .user-ketcausoft .section-info__header .name-container .user-name {
+        font-family: "Lato";
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: bold;
+        margin-bottom: 20px; }
+      .user-ketcausoft .section-info__header .name-container p {
+        font-family: "Lato";
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 20px; }
+      .user-ketcausoft .section-info__header .name-container button {
+        padding: 10px 20px;
+        border-radius: 10px; }
+    .user-ketcausoft .section-info h4 {
+      font-family: "Lato";
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: bold;
+      margin: 0; }
+    .user-ketcausoft .section-info__body__left form label {
+      font-family: "Lato";
+      font-size: 15px;
+      line-height: 18px;
+      font-weight: bold;
+      margin: 0;
+      display: flex;
+      align-items: center; }
+    .user-ketcausoft .section-info__body__left .group-password .row {
+      position: relative; }
+      .user-ketcausoft .section-info__body__left .group-password .row a {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(-10%, -50%);
+        font-family: "Lato";
+        font-size: 12px;
+        line-height: 15px;
+        color: #c4c4c4;
+        cursor: pointer; }
+      .user-ketcausoft .section-info__body__left .group-password .row input {
+        padding-right: 90px; }
+    .user-ketcausoft .section-info__body__left .change-password {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #c4c4c4; }
+      .user-ketcausoft .section-info__body__left .change-password .group-label {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px; }
+        .user-ketcausoft .section-info__body__left .change-password .group-label span {
+          cursor: pointer; }
+      .user-ketcausoft .section-info__body__left .change-password #show_hide_password_old,
+      .user-ketcausoft .section-info__body__left .change-password #show_hide_password_new {
+        position: relative;
+        margin-bottom: 15px; }
+        .user-ketcausoft .section-info__body__left .change-password #show_hide_password_old img,
+        .user-ketcausoft .section-info__body__left .change-password #show_hide_password_new img {
+          position: absolute;
+          top: 50%;
+          right: 0px;
+          transform: translate(-50%, -50%);
+          cursor: pointer;
+          width: 17px;
+          height: 11px; }
+      .user-ketcausoft .section-info__body__left .change-password button {
+        background-color: #323232;
+        border-radius: 5px;
+        padding: 5px 25px; }
+    .user-ketcausoft .section-info__body__left .group-input-facebook input {
+      color: #267ffd; }
+    .user-ketcausoft .section-info__body__left .btn-change-info {
+      background-color: #18a05f;
+      color: #fff;
+      text-transform: uppercase;
+      font-family: "Lato";
+      font-size: 15px;
+      line-height: 18px; }
+    .user-ketcausoft .section-info__body__right .group-content {
+      padding: 30px;
+      border-radius: 5px;
+      border: 1px solid #c4c4c4; }
+      .user-ketcausoft .section-info__body__right .group-content .group-title {
+        font-family: "Lato";
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: bold; }
+      .user-ketcausoft .section-info__body__right .group-content p {
+        font-family: "Lato";
+        font-size: 15px;
+        line-height: 18px; }
+      .user-ketcausoft .section-info__body__right .group-content button {
+        color: #18a05f;
+        border: 1px solid #18a05f;
+        padding: 7px 23px; }
+  .user-ketcausoft .section-moment {
+    padding: 45px 0 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 60px; }
+    .user-ketcausoft .section-moment p {
+      font-family: "Lato";
+      font-size: 17px;
+      line-height: 25px;
+      font-weight: bold; }
+    .user-ketcausoft .section-moment button {
+      color: #18a05f;
+      border: 1px solid #18a05f;
+      padding: 10px 40px;
+      font-family: "Lato";
+      font-size: 15px;
+      line-height: 18px; }
+  .user-ketcausoft h1 {
+    text-transform: uppercase;
+    font-family: "Lato";
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px; }
+  .user-ketcausoft .section-benefit {
+    padding: 45px 15px 60px;
+    background-color: #fff;
+    border-radius: 10px; }
+    .user-ketcausoft .section-benefit h1 {
+      text-align: center; }
+    .user-ketcausoft .section-benefit thead th {
+      text-align: center;
+      background-color: #ececec; }
+      .user-ketcausoft .section-benefit thead th:last-child {
+        background-color: #ddf8eb; }
+    .user-ketcausoft .section-benefit tbody tr td {
+      border-right: 1px dashed #ececec;
+      border-bottom: 1px dashed #ececec;
+      padding: 15px 30px; }
+      .user-ketcausoft .section-benefit tbody tr td img {
+        margin-right: 10px; }
+      .user-ketcausoft .section-benefit tbody tr td:last-child {
+        border-right: none; }
+  .user-ketcausoft .container__search-header {
+    max-width: 900px;
+    margin: 0 auto 40px; }
+  .user-ketcausoft .container__search-keyword {
+    display: flex;
+    padding: 0; }
+    .user-ketcausoft .container__search-keyword ul,
+    .user-ketcausoft .container__search-keyword li {
+      list-style: none; }
+      .user-ketcausoft .container__search-keyword ul a,
+      .user-ketcausoft .container__search-keyword li a {
+        color: #262626;
+        font-family: "Lato";
+        font-size: 14px;
+        line-height: 35px; }
+    .user-ketcausoft .container__search-keyword__item {
+      margin-right: 15px; }
+  .user-ketcausoft .section-clip-thematic {
+    background-color: #fff;
+    padding: 45px 15px 60px;
+    border-radius: 10px;
+    margin-bottom: 60px; }
+    .user-ketcausoft .section-clip-thematic__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ececec; }
+    .user-ketcausoft .section-clip-thematic__title {
+      font-family: "Lato";
+      font-size: 24px;
+      line-height: 35px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .user-ketcausoft .section-clip-thematic__more a {
+      color: #18a05f; }
+    .user-ketcausoft .section-clip-thematic__item {
+      max-width: 360px;
+      max-height: 200px;
+      margin-bottom: 20px; }
+      .user-ketcausoft .section-clip-thematic__item img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer; }
+  .user-ketcausoft .section-course {
+    position: relative; }
+    .user-ketcausoft .section-course__body .wrap-image {
+      width: 340px;
+      height: 195px; }
+      .user-ketcausoft .section-course__body .wrap-image img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer; }
+    .user-ketcausoft .section-course__body p {
+      font-family: "Lato";
+      font-size: 15px;
+      line-height: 24px; }
+    .user-ketcausoft .section-course__title {
+      font-family: "Lato";
+      font-size: 18px;
+      line-height: 35px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 10px 0; }
+    .user-ketcausoft .section-course .course-prev {
+      position: absolute;
+      top: 50%;
+      z-index: 1;
+      left: -20px;
+      transform: translate(0%, -50%);
+      cursor: pointer; }
+    .user-ketcausoft .section-course .course-next {
+      position: absolute;
+      top: 50%;
+      z-index: 1;
+      right: -20px;
+      transform: translate(0%, -50%);
+      cursor: pointer; }
+  .user-ketcausoft .section-document__list {
+    padding: 0; }
+  .user-ketcausoft .section-document__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    margin-bottom: 15px; }
+    .user-ketcausoft .section-document__item img {
+      cursor: pointer; }

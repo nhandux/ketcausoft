@@ -1,0 +1,375 @@
+.buy-soft {
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    line-height: 44px;
+  }
+
+  .button-hotline {
+    background-color: #fd8100 !important;
+    & img {
+      width: 16px !important;
+      height: 16px;
+    }
+  }
+  .button-zalo {
+    background-color: #2aa3ff !important;
+    border: none !important;
+    & p {
+      color: #fff !important;
+    }
+  }
+  .section__title {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 35px;
+    margin-bottom: 30px;
+    position: relative;
+    text-transform: uppercase;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 2px;
+      background-color: #18a05f;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .section-card {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+
+    &__list {
+      margin-bottom: 45px;
+    }
+
+    &__item {
+      background-color: #fff;
+      border-radius: 10px;
+      padding-bottom: 20px;
+      position: relative;
+      transition: all 0.5s ease-in-out;
+      margin-bottom: 20px;
+
+      &::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+        box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.15);
+        content: "";
+        border-radius: 10px;
+        opacity: 0;
+        z-index: -1;
+      }
+
+      &:hover,
+      &:focus {
+        transform: scale3d(1.006, 1.006, 1);
+
+        &::after {
+          opacity: 1;
+        }
+      }
+
+      p {
+        text-align: center;
+        font-family: "Lato";
+        font-size: 16px;
+        line-height: 36px;
+        margin: 0;
+      }
+    }
+
+    &__header {
+      background-color: #2aa3ff;
+      border-radius: 10px;
+      //   height: 169px;
+      clip-path: ellipse(65% 60% at 50% 20%);
+      padding: 10px;
+
+      &--online {
+        background-color: #2aa3ff;
+      }
+      &--log {
+        background-color: #1ab394;
+      }
+      &--code {
+        background-color: #f8b600;
+      }
+      &--infinity {
+        background-color: #fd8100;
+      }
+
+      &-title {
+        text-align: center;
+        font-family: "Lato";
+        font-size: 13px;
+        line-height: 16px;
+        color: #fff;
+        text-transform: uppercase;
+      }
+    }
+
+    &__image {
+      width: 21px;
+      height: 21px;
+      margin: 0 auto 5px;
+      display: block;
+    }
+
+    &__price {
+      text-align: center;
+      font-family: "Lato";
+      font-size: 36px;
+      line-height: 44px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      & small {
+        font-family: "Lato";
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 400;
+        margin-left: 5px;
+      }
+
+      &--online {
+        color: #2aa3ff;
+      }
+      &--log {
+        color: #1ab394;
+      }
+      &--code {
+        color: #f8b600;
+      }
+      &--infinity {
+        color: #fd8100;
+      }
+    }
+
+    &__button {
+      display: block;
+      margin: 20px auto;
+      font-family: "Lato";
+      font-size: 15px;
+      line-height: 18px;
+      font-weight: 400;
+      border-radius: 26px;
+      padding: 10px 20px;
+      border: none;
+
+      &--online {
+        background-color: #2aa3ff;
+      }
+      &--log {
+        background-color: #1ab394;
+      }
+      &--code {
+        background-color: #f8b600;
+      }
+      &--infinity {
+        background-color: #fd8100;
+      }
+    }
+
+    &__hotline {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & p {
+        font-family: "Lato";
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: bold;
+        margin: 0 5px 0 0;
+      }
+
+      & button {
+        background-color: #18a05f;
+        font-family: "Lato";
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 400;
+        border-radius: 26px;
+        padding: 5px 25px;
+      }
+    }
+  }
+
+  .section-payment {
+    padding: 30px 60px;
+    &__tutorial {
+      padding: 30px 0;
+
+      &__item {
+        min-height: 250px;
+      }
+
+      &__label {
+        position: relative;
+        margin-bottom: 20px;
+      }
+
+      &__number {
+        border: 2px solid #18a05f;
+        border-radius: 50%;
+        color: #18a05f;
+        width: 74px;
+        height: 74px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: "Lato";
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: bold;
+        position: absolute;
+        background-color: #fff;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+      }
+
+      &__title {
+        background-color: #ececec;
+        margin: 0;
+        padding-left: 75px;
+        margin-left: 20px;
+        font-family: "Lato";
+        font-size: 15px;
+        line-height: 24px;
+      }
+
+      &__text {
+        margin-left: 94px;
+        font-family: "Lato";
+        font-size: 15px;
+        line-height: 24px;
+      }
+    }
+
+    &__register {
+      padding-left: 0;
+
+      & form {
+        padding: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+
+        .form-label {
+          font-family: "Lato";
+          font-size: 20px;
+          line-height: 24px;
+          margin: 30px 0 10px;
+        }
+
+        .form-control {
+          padding: 15px 20px;
+          margin-bottom: 20px;
+        }
+
+        .form-check {
+          a {
+            display: block;
+          }
+        }
+
+        .btn-payment {
+          background-color: #18a05f;
+          padding: 20px;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+
+          font-family: "Lato";
+          font-size: 15px;
+          line-height: 18px;
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            background-color: #2aa3ff;
+          }
+        }
+      }
+    }
+  }
+
+  .section-thanhtoan {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    &__container {
+      .item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        & img {
+          width: 110px;
+          height: 110px;
+          margin-right: 10px;
+        }
+
+        & a {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+#modalPayment {
+  min-width: 500px;
+  .times {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 9;
+    cursor: pointer;
+  }
+
+  .modal-dialog {
+    max-width: none;
+  }
+
+  .modal-body {
+    padding: 15px 80px;
+    text-align: center;
+
+    font-family: "Lato";
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;
+
+    & img {
+      margin-bottom: 25px;
+      width: 120px;
+      height: 120px;
+    }
+
+    & .title {
+      font-family: "Lato";
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #18a05f;
+    }
+
+    & p {
+      margin: 0;
+    }
+  }
+}
