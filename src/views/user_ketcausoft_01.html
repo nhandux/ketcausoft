@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('../components/_head.html', { "title": "Meta title for web" })
+</head>
+<body>
+    @@include('../components/_header_authentication.html')
+    <div class="banner-over-bottom1 user-banner">
+        <div class="container">
+            <div class="over-shadow">
+                <ul>
+                    <li><a href="" class="active"><img src="assets/images/icon_user_info.svg" alt=""> THÔNG TIN CÁ NHÂN</a></li>
+                    <li><a href=""><img src="assets/images/icon_notification.svg" alt=""> THÔNG BÁO</a></li>
+                    <li><a href=""><img src="assets/images/icon_file.svg" alt=""> TÀI LIỆU KETCAUSOFT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+      
+      <div class="user-ketcausoft">
+          <div class="container">
+            <div class="section-info">
+                <div class="section-info__header">
+                    <div class="avatar-container">
+                        <img src="assets/images/user_avatar.png" alt="" class="avatar">
+                        <img src="assets/images/icon_edit.svg" alt="" class="edit-avatar">
+                    </div>
+                    <div class="name-container">
+                        <div class="user-name">Phụng Nguyễn</div>
+                        <p>Personal Basic</p>
+                        <button class="btn btn-primary">30 KCS Point</button>
+                    </div>
+                </div>
+
+                <h4>Hồ sơ cửa tôi</h4>
+                <p class="under-header mb-4">Quản lý thông tin hồ sơ để bảo mật tài khoản</p>
+
+                <div class="row section-info__body">
+                    <div class="col-lg-7 col-md-12 section-info__body__left">
+                        <form>
+                            <div class="form-group row mb-3">
+                                <label for="name" class="col-lg-3 col-md-12">Họ và tên</label>
+                                <input type="text" class="form-control col-lg-9 col-md-12" id="name" placeholder="Phụng Nguyễn" value="Phụng Nguyễn">
+                            </div>
+                            <div class="form-group row mb-3">
+                               <label for="phone" class="col-lg-3 col-md-12">Số điện thoại</label>
+                               <input type="text" class="form-control col-lg-9 col-md-12" id="phone" placeholder="0123 456 789" value="0123 456 789">
+                            </div>
+                            <div class="form-group row mb-3">
+                               <label for="email" class="col-lg-3 col-md-12">Email</label>
+                               <input type="email" class="form-control col-lg-9 col-md-12" id="email" placeholder="example@gmail.com" value="example@gmail.com">
+                            </div>
+                            <div class="form-group row mb-3">
+                               <label for="password" class="col-lg-3 col-md-12">Mật khẩu</label>
+                               <div class="group-password col-lg-9 col-md-12">
+                                   <div class="row">
+                                       <input type="password" class="form-control " id="name" placeholder="Password" value="Password">
+                                       <a id="open_change">Đổi mật khẩu</a>
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="form-group row mb-3" id="change_pass">
+                               <label for="name" class="col-lg-3 col-md-12"></label>
+                               <div class="col-lg-9 col-md-12 change-password">
+                                   <div class="group-label">
+                                       <label>Đổi mật khẩu</label>
+                                       <span id="close_change_pass">X</span>
+                                   </div>
+                                   <div class="mb-4" id="show_hide_password_old">
+                                    <input class="form-control" type="password" placeholder="Nhập mật khẩu cũ">
+                                    <img src="assets/images/icon_eye.svg" alt="">
+                                   </div>
+                                   <div class=" mb-4" id="show_hide_password_new">
+                                    <input class="form-control" type="password" placeholder="Tạo mật khẩu mới">
+                                    <img src="assets/images/icon_eye.svg" alt="">
+                                   </div>
+                                   <button class="btn btn-primary">Lưu lại</button>
+                               </div>
+                             </div>
+                             <div class="form-group row mb-3">
+                               <label for="name" class="col-lg-3 col-md-12">Ngày sinh</label>
+                                <div class="col-lg-9 col-md-12">
+                                    <div class="row">
+                                     <select class="form-control col-4">
+                                         <option selected>1</option>
+                                         <option>...</option>
+                                       </select>
+                                       <select class="form-control col-4">
+                                         <option selected>Tháng 1</option>
+                                         <option>...</option>
+                                       </select>
+                                       <select class="form-control col-4">
+                                         <option selected>1990</option>
+                                         <option>...</option>
+                                       </select>
+                                    </div>
+                                </div>
+                             </div>
+                             <div class="form-group row mb-3">
+                               <label for="name" class="col-lg-3 col-md-12">Giới tính:</label>
+                               <div class="col-lg-9 col-md-12">
+                                   <div class="row">
+                                       <div class="col-4 form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="name" value="option1" checked>
+                                        <label class="form-check-label" for="name">
+                                          Nam
+                                        </label>
+                                       </div>
+                                       <div class="col-4 form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="nu" value="option2">
+                                        <label class="form-check-label" for="nu">
+                                            Nữ
+                                        </label>
+                                       </div>
+                                       <div class="col-4 form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="khac" value="option3">
+                                        <label class="form-check-label" for="khac">
+                                            Khác
+                                        </label>
+                                       </div>
+                                   </div>
+                               </div>
+                             </div>
+                             <div class="form-group row mb-3 group-input-facebook">
+                               <label for="name" class="col-lg-3 col-md-12">Facebook</label>
+                               <input type="text" class="form-control col-lg-9 col-md-12" id="name" value="www.facebook.com/nguyentrung">
+                             </div>
+                            
+                             <div class="form-group row">
+                                 <button class="btn form-control btn-change-info" type="button">lưu thay đổi</button>
+                             </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-5 col-md-12 section-info__body__right">
+                        <div class="group-content">
+                            <img src="assets/images/icon_chess.svg" alt="" class="mb-3">
+                            <h4 class="group-title">Tài khoản cao cấp</h4>
+                            <p>Đăng ký gói tài khoản cao cấp để nhận đặc quyền khác biệt!</p>
+                            <button class="btn" type="button">Go Premium</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+
+        
+    @@include('../components/_foot.html') @@include('../components/_footer.html')
+
+</body>
+</html>
