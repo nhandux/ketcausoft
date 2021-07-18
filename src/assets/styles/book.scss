@@ -146,7 +146,7 @@
 
   &__detail {
     background-color: #fff;
-    padding: 45px;
+    padding: 30px;
     border-radius: 8px;
     height: 98%;
     &__header {
@@ -378,6 +378,7 @@
 
   &__container {
     display: flex;
+    flex-wrap: wrap;
     & img {
       width: 270x;
       height: 240px;
