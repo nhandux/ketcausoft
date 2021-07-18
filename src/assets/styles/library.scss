@@ -85,7 +85,7 @@
 #library{
     background-color: #F9F9F9;
     padding-top: 4em;
-    padding-bottom: 4em;
+    padding-bottom: 2em;
     font-family: 'Lato', sans-serif;
     h2{
         font-family: 'Montserrat', sans-serif;
@@ -317,13 +317,6 @@
             }
         }
     }
-    .h2-center{
-        text-align: center;
-        &:after{
-            left: 48%;
-            right: 48%;
-        }
-    }
     .video-view-hot{
         .col-post_other{
             background: #fff;
@@ -449,5 +442,13 @@ a{
         a{
             color: #262626;
         }
+    }
+}
+.h2-center{
+    text-align: center;
+    position: relative;
+    &:after{
+        left: 48%;
+        right: 48%;
     }
 }
