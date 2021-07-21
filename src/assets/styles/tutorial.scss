@@ -1,8 +1,6 @@
-
-
-.list-box-tutorial{
-  .box-tutorial{
-    background-color: #ECECEC;
+.list-box-tutorial {
+  .box-tutorial {
+    background-color: #ececec;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,55 +8,56 @@
     padding: 14px;
     margin-bottom: 15px;
     cursor: pointer;
-    p{
+    p {
       color: #000;
       font-size: 15px;
       font-weight: 700;
       margin-bottom: 0;
+      text-transform: uppercase;
     }
   }
-  .hide{
+  .hide {
     display: none;
   }
-  ul{
+  ul {
     display: none;
   }
-  &.active{
-    .box-tutorial{
-      .hide{
+  &.active {
+    .box-tutorial {
+      .hide {
         display: block;
       }
-      .show{
+      .show {
         display: none;
       }
-      background-color: #18A05F;
-      p{
+      background-color: #18a05f;
+      p {
         color: #fff;
       }
     }
-    ul{
+    ul {
       display: block;
       padding-left: 30px;
       animation: 3s;
-      li{
+      li {
         list-style: none;
         display: flex;
         align-items: center;
-        margin-bottom: 10px;
-        img{
+        margin-bottom: 15px;
+        img {
           width: 20px;
           height: 20px;
         }
-        a{
+        a {
           text-decoration: none;
           color: #000;
           font-size: 15px;
           font-weight: 400;
           padding-left: 15px;
         }
-        &:hover{
-          a{
-            color: #18A05F;
+        &:hover {
+          a {
+            color: #18a05f;
             font-weight: 700;
           }
         }
@@ -66,74 +65,74 @@
     }
   }
 }
-.box-tutorial__right{
+.box-tutorial__right {
   text-align: center;
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
-  h1{
+  h1 {
     font-size: 24px;
     font-weight: 700;
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid #ececec;
     padding-bottom: 10px;
     text-align: left;
   }
-  p{
+  p {
     margin-bottom: 0;
     font-size: 18px;
     text-align: left;
   }
-  img{
+  img {
     margin-top: 20px;
     margin-bottom: 20px;
     object-fit: unset;
   }
-  &--title{
+  &--title {
     display: flex;
     align-items: center;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     border-radius: 5px;
     padding: 15px;
     margin-top: 20px;
-    p{
+    p {
       font-size: 15px;
       font-weight: 700;
       padding-left: 15px;
       margin-bottom: 0;
     }
-    img{
+    img {
       margin: 0 !important;
     }
   }
-  .list-tutorial{
+  .list-tutorial {
     text-align: left;
     padding-top: 10px;
-    ul{
+    ul {
       padding-left: 20px;
       list-style: none;
-      li{
+      li {
         font-size: 15px;
         font-weight: 400;
         &::before {
           content: "\2022";
-          color: #18A05F;
+          color: #18a05f;
           font-weight: bold;
-          display: inline-block; 
+          display: inline-block;
           width: 1em;
           margin-left: -1em;
         }
-        &:hover{
-          color: #18A05F;
+        &:hover {
+          color: #18a05f;
         }
       }
     }
   }
-  &__list-video{
-    &__video{
+  &__list-video {
+    &__video {
       position: relative;
-      img{
+      img {
         width: 100%;
-        &.icon-play{
+        &.icon-play {
           position: absolute;
           top: 50%;
           transform: translateY(-50%);
@@ -145,46 +144,46 @@
       }
     }
   }
-  .show-more-list{
-    color: #18A05F;
+  .show-more-list {
+    color: #18a05f;
     text-align: left;
     font-size: 15px;
     font-weight: 400;
   }
-  p{
+  p {
     font-size: 15px;
     padding-bottom: 20px;
   }
-  .text-note{
+  .text-note {
     font-size: 18px;
     font-weight: 700;
   }
-  .table{
-    thead{
-      background-color: #18A05F;
+  .table {
+    thead {
+      background-color: #18a05f;
       color: #fff;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
-      th{
+      th {
         font-size: 14px;
         font-weight: 400;
-        &:first-child{
+        &:first-child {
           width: 150px;
         }
       }
     }
-    tbody{
-      tr{
-        td{
+    tbody {
+      tr {
+        td {
           font-size: 12px;
           font-weight: 400;
         }
       }
     }
   }
-  &__custom{
-    border-bottom: 1px solid #ECECEC;
-    h2{
+  &__custom {
+    border-bottom: 1px solid #ececec;
+    h2 {
       font-size: 24px;
       font-weight: 700;
       padding-bottom: 0px;
@@ -193,16 +192,16 @@
     }
   }
 }
-.list-post-same{
+.list-post-same {
   padding-left: 0;
   padding-right: 0;
-  &.user-manual__left{
-    h3{
+  &.user-manual__left {
+    h3 {
       font-size: 20px;
       padding-left: 30px;
     }
-    ul{
-      li{
+    ul {
+      li {
         padding-left: 30px;
       }
     }
