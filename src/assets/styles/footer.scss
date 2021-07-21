@@ -1,11 +1,11 @@
-.bg-footer{
-  background-color: #18A05F;
+.bg-footer {
+  background-color: #18a05f;
   color: #fff;
-  h6{
+  h6 {
     font-size: 20px;
     position: relative;
-    &::before{
-      content: '';
+    &::before {
+      content: "";
       position: absolute;
       width: 30px;
       height: 2px;
@@ -13,22 +13,26 @@
       bottom: -20px;
     }
   }
-  .list-unstyled{
+  .list-unstyled {
     padding-top: 20px;
-    li{
+    li {
       font-size: 14px;
-      a{
+      a {
         color: #fff;
         font-weight: 400;
       }
     }
   }
+
+  .footer-line-height {
+    line-height: 36px;
+  }
 }
-.bg-copyright{
-  background-color: #18A05F;
+.bg-copyright {
+  background-color: #18a05f;
   color: #fff;
-  p{
-    border-top: 1px solid #1AB394;
+  p {
+    border-top: 1px solid #1ab394;
     padding-top: 27px;
     padding-bottom: 24px;
   }

@@ -1,258 +1,258 @@
-.free-use{
+.free-use {
   text-align: center;
   padding-top: 40px;
-  h2{
+  h2 {
     font-size: 24px;
     color: #000;
     font-weight: 700;
   }
-  h1{
-    color: #18A05F;
+  h1 {
+    color: #18a05f;
     font-size: 30px;
     font-weight: 700;
   }
-  .box-free{
-    background-color: #F9F9F9;
+  .box-free {
+    background-color: #f9f9f9;
     margin-top: 25px;
     margin-bottom: 15px;
-    &__detail{
+    &__detail {
       padding: 22px;
-      &:nth-of-type(1){
-        border-right: 1px solid #ECECEC;
-        border-bottom: 1px solid #ECECEC;
+      &:nth-of-type(1) {
+        border-right: 1px solid #ececec;
+        border-bottom: 1px solid #ececec;
       }
-      &:nth-of-type(2){
-        border-bottom: 1px solid #ECECEC;
+      &:nth-of-type(2) {
+        border-bottom: 1px solid #ececec;
       }
-      &:nth-of-type(3){
-        border-right: 1px solid #ECECEC;
+      &:nth-of-type(3) {
+        border-right: 1px solid #ececec;
       }
-      p{
+      p {
         margin-bottom: 0;
       }
     }
   }
-  .group-button{
+  .group-button {
     display: flex;
     justify-content: center;
-    button{
+    button {
       display: flex;
       align-items: baseline;
       padding: 9px 18px;
       border-radius: 20px;
-      background-color: #18A05F;
+      background-color: #18a05f;
       border: 0;
-      img{
+      img {
         width: 8px;
       }
-      p{
+      p {
         margin-bottom: 0;
         color: #fff;
         padding-left: 5px;
         font-size: 14px;
         font-weight: 400;
       }
-      &:last-child{
+      &:last-child {
         margin-left: 10px;
-        border: 1px solid #18A05F;
+        border: 1px solid #18a05f;
         background-color: #fff;
-        p{
-          color: #18A05F;
+        p {
+          color: #18a05f;
         }
       }
     }
   }
 }
-.section-update{
-  background-color: #1AB394;
+.section-update {
+  background-color: #1ab394;
   padding: 40px 0 30px 0;
   text-align: center;
-  h1{
+  h1 {
     font-size: 30px;
     font-weight: 700;
     color: #fff;
     padding-bottom: 25px;
   }
-  .list-post{
+  .list-post {
     padding-bottom: 15px;
-    &__item{
+    &__item {
       background-color: #fff;
       border-radius: 10px;
       display: flex;
       padding: 20px;
       max-width: 370px;
-      img{
+      img {
         width: 145px;
         height: 90px;
       }
-      &__right{
+      &__right {
         padding-left: 18px;
         text-align: left;
-        h2{
+        h2 {
           font-size: 14px;
           font-weight: 700;
           padding-bottom: 17px;
         }
-        p{
+        p {
           font-size: 14px;
           font-weight: 400;
         }
       }
     }
   }
-  button{
+  button {
     align-items: baseline;
     padding: 7px 25px 9px;
     border-radius: 20px;
     border: 1px solid #fff;
     background-color: transparent;
-    p{
+    p {
       color: #fff;
       margin-bottom: 0;
     }
   }
 }
 
-.section-feature{
+.section-feature {
   text-align: center;
   padding-top: 65px;
-  h1{
+  h1 {
     font-size: 40px;
     font-weight: 700;
   }
-  h2{
+  h2 {
     font-size: 18px;
     font-weight: 400;
     padding-top: 7px;
   }
-  .group-button{
+  .group-button {
     display: flex;
     justify-content: center;
     margin-top: 15px;
     margin-bottom: 45px;
-    button{
+    button {
       display: flex;
       align-items: baseline;
       padding: 9px 30px;
       border-radius: 17px;
-      background-color: #267FFD;
+      background-color: #267ffd;
       border: 0;
-      img{
+      img {
         width: 13px;
         height: 13px;
       }
-      p{
+      p {
         margin-bottom: 0;
         color: #fff;
         padding-left: 5px;
         font-size: 14px;
         font-weight: 400;
       }
-      &:nth-of-type(2){
+      &:nth-of-type(2) {
         margin-left: 10px;
         border: 0;
-        background-color: #FC5226;
-        p{
+        background-color: #fc5226;
+        p {
           color: #fff;
         }
       }
-      &:last-child{
+      &:last-child {
         margin-left: 10px;
-        border: 1px solid #18A05F;
+        border: 1px solid #18a05f;
         background-color: #fff;
-        p{
-          color: #18A05F;
+        p {
+          color: #18a05f;
         }
       }
     }
   }
-  &__item{
+  &__item {
     padding-bottom: 20px;
-    &__list{
-      &:nth-of-type(2n){
+    &__list {
+      &:nth-of-type(2n) {
         padding-left: 30px;
       }
-      h1{
+      h1 {
         font-size: 30px;
         text-align: left;
         position: relative;
         margin-bottom: 25px;
-        &::before{
-          content: '';
+        &::before {
+          content: "";
           position: absolute;
           width: 30px;
           height: 2px;
-          background-color: #18A05F;
+          background-color: #18a05f;
           bottom: -10px;
         }
       }
-      h2{
+      h2 {
         font-size: 15px;
         font-weight: 700 !important;
         text-align: left;
-        span{
-          color: #267FFD;
+        span {
+          color: #267ffd;
         }
       }
-      &--image{
-        img{
+      &--image {
+        img {
           width: 570px;
           object-fit: none;
         }
       }
-      &__active{
+      &__active {
         display: flex;
         align-items: baseline;
-        img{
+        img {
           width: 10px;
           height: 10px;
         }
-        p{
+        p {
           font-size: 15px;
-          font-weight: 300;
+          font-weight: 400;
           margin-bottom: 0;
           padding-left: 8px;
           text-align: left;
         }
       }
-      .group-button{
+      .group-button {
         display: flex;
         justify-content: left;
-        button{
+        button {
           display: flex;
           align-items: baseline;
           padding: 7px 18px 9px;
           border-radius: 20px;
-          background-color: #18A05F;
+          background-color: #18a05f;
           border: 0;
-          img{
+          img {
             width: 8px;
           }
-          p{
+          p {
             margin-bottom: 0;
             color: #fff;
             padding-left: 5px;
             font-size: 14px;
             font-weight: 400;
           }
-          &:last-child{
+          &:last-child {
             margin-left: 10px;
-            border: 1px solid #18A05F;
+            border: 1px solid #18a05f;
             background-color: #fff;
-            p{
-              color: #18A05F;
+            p {
+              color: #18a05f;
             }
           }
         }
       }
-      &__box{
+      &__box {
         padding: 30px 25px;
         border-radius: 10px;
         background-color: #fff;
         margin-bottom: 15px;
         text-align: left;
-        &.active{
-          background-color: #18A05F;
+        &.active {
+          background-color: #18a05f;
           color: #fff;
         }
       }
@@ -260,85 +260,85 @@
   }
 }
 
-.section-export{
-  background-color: #F9F9F9;
+.section-export {
+  background-color: #f9f9f9;
   text-align: center;
-  h1{
+  h1 {
     font-size: 30px;
     font-weight: 700;
     position: relative;
     margin-bottom: 30px;
     padding-top: 50px;
-    &::before{
-      content: '';
+    &::before {
+      content: "";
       position: absolute;
       width: 50px;
       height: 2px;
-      background-color: #2AA3FF;
+      background-color: #2aa3ff;
       bottom: -15px;
       left: 50%;
-      transform:translateX(-50%)
+      transform: translateX(-50%);
     }
   }
-  h2{
+  h2 {
     font-size: 15px;
     font-weight: 400;
   }
 }
 
-.section-software{
-  background-color: #F9F9F9;
+.section-software {
+  background-color: #f9f9f9;
   text-align: center;
   padding-bottom: 90px;
-  h1{
+  h1 {
     font-size: 30px;
     font-weight: 700;
     padding-top: 50px;
   }
-  h2{
+  h2 {
     font-size: 15px;
     font-weight: 400;
     padding-bottom: 20;
   }
-  &__box{
+  &__box {
     display: flex;
     margin-bottom: 25px;
-    &__left{
+    &__left {
       text-align: left;
-      background-color: #E7F2ED;
+      background-color: #e7f2ed;
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
       padding-top: 75px;
       padding-left: 35px;
       padding-bottom: 20px;
-      &.box-2{
-        background-color: #E7EBF2;
+      &.box-2 {
+        background-color: #e7ebf2;
       }
-      &.box-3{
-        background-color: #F2E7EB;
+      &.box-3 {
+        background-color: #f2e7eb;
       }
-      p{
+      p {
         font-size: 16px;
         font-weight: 700;
         margin-bottom: 0;
       }
-      h2{
+      h2 {
         font-size: 20px;
         font-weight: 700;
         margin-bottom: 30px;
       }
-      button{
+      button {
         display: flex;
         align-items: baseline;
         padding: 9px 30px;
         border-radius: 17px;
-        background-color: #18A05F;
+        background-color: #18a05f;
         border: 0;
-        img{
+        img {
           width: 13px;
           height: 13px;
         }
-        p{
+        p {
           margin-bottom: 0;
           color: #fff;
           padding-left: 5px;
@@ -347,7 +347,7 @@
         }
       }
     }
-    &__right{
+    &__right {
       background-color: #fff;
       border-top-right-radius: 10px;
       border-bottom-right-radius: 10px;
@@ -355,13 +355,13 @@
       padding-bottom: 35px;
       text-align: left;
       padding-left: 45px;
-      &__item{
+      &__item {
         width: 150px;
         display: inline-block;
         vertical-align: top;
         text-align: left;
         padding-bottom: 10px;
-        p{
+        p {
           font-size: 12px;
           font-weight: 400;
           margin-bottom: 0;
@@ -374,25 +374,25 @@
   }
 }
 
-.section-working{
-  background-color: #1AB394;
+.section-working {
+  background-color: #1ab394;
   padding-top: 50px;
   height: 480px;
-  &__list{
-    h1{
+  &__list {
+    h1 {
       font-size: 36px;
       color: #fff;
       font-weight: 700;
     }
-    &__active{
+    &__active {
       display: flex;
       align-items: baseline;
       padding-bottom: 10px;
-      img{
+      img {
         width: 10px;
         height: 10px;
       }
-      p{
+      p {
         font-size: 15px;
         font-weight: 300;
         margin-bottom: 0;
@@ -402,95 +402,95 @@
       }
     }
   }
-  button{
+  button {
     align-items: baseline;
     padding: 7px 25px 9px;
     border-radius: 20px;
-    background-color: #F8B600;
+    background-color: #f8b600;
     border: 0;
-    p{
+    p {
       color: #fff;
       margin-bottom: 0;
     }
   }
-  &__image{
+  &__image {
     position: relative;
     top: -180px;
   }
 }
 
-.green-bg{
-  background-color: #18A05F !important;
-  p{
+.green-bg {
+  background-color: #18a05f !important;
+  p {
     color: #fff !important;
   }
 }
 
-.section-me{
-  background-color: #F9F9F9;
+.section-me {
+  background-color: #f9f9f9;
   text-align: center;
-  h1{
+  h1 {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 10px;
     padding-top: 50px;
   }
-  h2{
+  h2 {
     font-size: 15px;
     font-weight: 400;
     padding-bottom: 35px;
   }
-  &__item{
-    h2{
+  &__item {
+    h2 {
       padding-top: 10px;
       padding-bottom: 15px;
       font-size: 18px;
       font-weight: 700;
     }
-    p{
+    p {
       font-size: 15px;
       font-weight: 400;
     }
   }
 }
 
-.section-question{
-  background-color: #18A05F;
+.section-question {
+  background-color: #18a05f;
   color: #fff;
   padding-top: 50px;
   text-align: center;
   padding-bottom: 30px;
-  h1{
+  h1 {
     font-size: 36px;
     font-weight: 700;
   }
-  .box-answer{
+  .box-answer {
     padding: 20px;
     border-radius: 10px;
-    background-color: rgba(#1AB394, 0.5);
+    background-color: rgba(#1ab394, 0.5);
     margin-top: 20px;
-    p{
+    p {
       font-size: 18px;
     }
-    h2{
+    h2 {
       font-size: 18px;
       font-weight: 700;
       margin-bottom: 0;
     }
   }
-  .list-box-data{
+  .list-box-data {
     justify-content: space-around;
-    .box-data{
-      &__item{
+    .box-data {
+      &__item {
         align-items: baseline;
-        p{
+        p {
           font-size: 43px;
           font-weight: 700;
           margin-bottom: 0;
           padding-left: 5px;
         }
       }
-      h3{
+      h3 {
         font-size: 14px;
         font-weight: 700;
       }
@@ -498,93 +498,93 @@
   }
 }
 
-.section-enterprise{
+.section-enterprise {
   text-align: center;
-  padding-top: 50px;
-  h1{
+  padding: 50px 0;
+  h1 {
     font-size: 36px;
     font-weight: 700;
     color: #000;
     padding-bottom: 20px;
-    span{
-      color: #18A05F;
+    span {
+      color: #18a05f;
     }
   }
-  img{
+  img {
     margin-bottom: 40px;
   }
 }
 
-.bg-gray{
-  background-color: #F9F9F9;
+.bg-gray {
+  background-color: #f9f9f9;
 }
 
-.bg-information{
-  background-color: #F1F1F1;
+.bg-information {
+  background-color: #f1f1f1;
 }
 
-.section-customer-reviews{
+.section-customer-reviews {
   position: relative;
-  h1{
+  h1 {
     font-size: 36px;
     font-weight: 700;
     padding-top: 50px;
   }
-  h2{
-    font-size: 100px;
-    font-weight: 700;
-    transform: rotate(90deg);
+  h2 {
+    font-family: "Loveya";
+    font-size: 350px;
+    text-align: center;
+    font-weight: normal;
     display: inline-block;
     position: absolute;
-    top: -45px;
+    top: -145px;
     left: 50%;
-    color: #18A05F;
+    color: #18a05f;
+    transform: translate(-50%, 0);
   }
 }
-#carouselBottom{
+#carouselBottom {
   padding-top: 40px;
   padding-bottom: 40px;
   text-align: center;
-  .carousel-control-prev{
+  .carousel-control-prev {
     left: -70px;
   }
-  .carousel-control-next{
+  .carousel-control-next {
     right: -70px;
   }
-  .carousel-indicators{
+  .carousel-indicators {
     bottom: 5px;
-    li{
-      border: 1px solid #C4C4C4;
-      &.active{
-        background-color: #18A05F;
+    li {
+      border: 1px solid #c4c4c4;
+      &.active {
+        background-color: #18a05f;
         border: 0;
       }
     }
   }
 }
-.box-slide-bottom{
+.box-slide-bottom {
   background-color: #fff;
   width: 1000px;
   border-radius: 10px;
   padding: 40px;
   margin: 0 auto;
   height: 350px;
-  .carousel-item{
-    p{
+  .carousel-item {
+    p {
       font-size: 18px;
       font-weight: 300;
       line-height: 30px;
       margin-bottom: 0;
     }
-    h4{
+    h4 {
       font-size: 18px;
       font-weight: 700;
       margin-bottom: 0;
     }
-    img{
+    img {
       margin-top: 20px;
     }
   }
 }
-
-
